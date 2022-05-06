@@ -53,7 +53,7 @@ export default function Home({ posts }) {
     <div className={styles.container}>
       {posts.map(post =>
         <div key={post.id}>
-          <img src={post.image} alt={posts.alt} />
+          <img src={post.image} alt={post.alt} />
         </div>
       )}
     </div>
